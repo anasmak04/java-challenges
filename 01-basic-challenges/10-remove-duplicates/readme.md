@@ -1,0 +1,4 @@
+# Instructions
+
+Write a function called ``removeDuplicates`` that takes in an array and returns a new array with duplicates removed.
+
