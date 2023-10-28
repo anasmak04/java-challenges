@@ -2,17 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int array[] = {5,4,8,7};
-        System.out.println(getSum(array));
+        System.out.println(getSum(5,5));
     }
 
-    private static int getSum(int array[]){
-        int sum = 0;
-        for(int i = 0 ; i < array.length ; i++){
-             sum+=array[i];
-
-        }
-
-        return sum;
+    private static int getSum(int a, int b){
+        return a + b;
     }
 }
